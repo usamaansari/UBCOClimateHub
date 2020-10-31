@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className = 'hero-container'>
-            <video src = "/videos/video_home.mp4" autoPlay loop muted={true} seekTo={30} />
+            <video src = "videos/video_home.mp4" autoPlay loop muted={true} seekTo={30} />
             <h1>Modular Clinton Global</h1>
             <p>Creative solutions, Creative results</p>
             <div className="hero-btns">

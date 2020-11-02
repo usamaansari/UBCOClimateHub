@@ -11,7 +11,7 @@ function Footer() {
           Join the Supply chain of smart vaccine delivery
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          You can email us at any time.
         </p>
         <div className='input-areas'>
           <form>
@@ -21,7 +21,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Email Us</Button>
           </form>
         </div>
       </section>

@@ -3,6 +3,8 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import Footer from '../Footer';
+import AboutComponent from '../AboutComponent';
+import { homeObjOne } from './HomeData';
 
 function Home () {
 
@@ -10,6 +12,7 @@ function Home () {
         <>
         <HeroSection/>
         <Cards/>
+        <AboutComponent {...homeObjOne}/>
         <Footer />
         </>
     );

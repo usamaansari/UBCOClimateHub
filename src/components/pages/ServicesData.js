@@ -8,7 +8,7 @@ export const homeObjOne = {
       'MCG Canada is aiming to develop the advanced modular hardware system: Logistics Innovation Unit Container (LIUC), including the modular Transport-Handling-Packaging(THP) smart containers and Rapid & Reliable (R&R) distribution of the pharmaceutical products (including the vaccine) across its supply chain, based on Physical Internet (PI) enabled and Blockchain technologies.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/Services/service1_b.jpg',
+    img: 'images/Services/service1_b.JPG',
     alt: 'Cold Chain Flowchart'
   };
   
@@ -36,7 +36,7 @@ export const homeObjOne = {
       "Delivering the right pharma products at the right time in the context of Covid-19 is the ultimate goal of MCG Canada. We believe in the power of blockchain to unlock the value of data in a decentralized way, on our journey towards a data-driven company this collaboration with UN/CEFACT, ISO, BSI and CILT enables us to build a secure enterprise B2B data marketplace to monetize and put data to work.",
     buttonLabel: 'Start Now',
     imgStart: '',
-    img: 'images/Services/service3_b.jpg',
+    img: 'images/Services/service3_b.JPG',
     alt: 'Customer Relationship'
   };
   

@@ -9,6 +9,7 @@
 .home,
 .services,
 .products,
+.dashboard,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -27,6 +28,15 @@
 }
 
 .products {
+  background-image: url('/src/images/About Us/stock-1863880_1920.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.dashboard {
   background-image: url('/src/images/About Us/stock-1863880_1920.jpg');
   background-position: center;
   background-size: fill;

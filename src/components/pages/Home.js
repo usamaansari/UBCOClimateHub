@@ -5,6 +5,7 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import AboutComponent from '../AboutComponent';
 import { homeObjOne } from './HomeData';
+import { Button } from '@material-ui/core';
 
 function Home () {
 
@@ -14,6 +15,7 @@ function Home () {
         <Cards/>
         <AboutComponent {...homeObjOne}/>
         <Footer />
+        
         </>
     );
     

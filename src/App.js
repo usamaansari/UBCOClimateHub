@@ -7,6 +7,7 @@ import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import Dashboard from './components/pages/Dashboard/DashboardPage';
 import SignUp from './components/pages/SignUp';
+import SignIn from './components/pages/SignIn/SignInPage';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path='/services' component={Services} />
         <Route path='/products' component={Products} />
         <Route path='/dashboard' component={Dashboard} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/sign-in' component={SignIn} />
       
       </Switch> 
     </Router>

@@ -10,7 +10,7 @@
 .services,
 .products,
 .dashboard,
-.sign-up {
+.sign-in {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -45,7 +45,7 @@
   font-size: 100px;
 }
 
-.sign-up {
+.sign-in {
   background-image: url('/src/images/SignUp/Signup_Background.jpg');
   background-position: center;
   background-size: cover;

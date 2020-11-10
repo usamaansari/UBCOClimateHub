@@ -8,7 +8,7 @@ export const homeObjOne = {
       'McGili Canada is AI and Blockchain-driven Company whose mission is to shape the supply chain industry in the coming Physical Internet Era and turn the 60-year-old traditional container into modular and smart container.  To achieve the vision, we are designing the modular hardware system: Logistics Innovation Unit Container (LIUC) and respective software (AI, Blockchain) to lead the new logistics landscape with great efficiency and visibility.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/Home/HomePage_Img.JPG',
+    img: 'images/Home/HomePage_Img1.jpg',
     alt: 'Vaccine Container Supply'
   };
   

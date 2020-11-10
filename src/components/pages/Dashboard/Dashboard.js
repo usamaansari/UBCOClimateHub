@@ -22,6 +22,10 @@ import { mainListItems, secondaryListItems } from './listItems';
 import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
+import TasksProgress from './TasksProgress';
+import TotalCustomers from './TotalCustomers';
+import { Style } from '@material-ui/icons';
+
 
 function Copyright() {
   return (
@@ -41,10 +45,12 @@ const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
+    
   },
   toolbar: {
     paddingRight: 24, // keep right padding when drawer closed
   },
+  
   toolbarIcon: {
     display: 'flex',
     alignItems: 'center',
@@ -58,6 +64,7 @@ const useStyles = makeStyles((theme) => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    top:80,
   },
   appBarShift: {
     marginLeft: drawerWidth,
@@ -132,7 +139,7 @@ export default function Dashboard() {
     
     <div className={classes.root}>
       <CssBaseline />
-      {/*<AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)}>
+      {<AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift) }>
         <Toolbar className={classes.toolbar}>
           <IconButton
             edge="start"
@@ -152,7 +159,7 @@ export default function Dashboard() {
             </Badge>
           </IconButton>
         </Toolbar>
-  </AppBar>*/}
+  </AppBar>}
       <Drawer
         variant="permanent"
         classes={{
@@ -173,6 +180,21 @@ export default function Dashboard() {
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
+          < Grid container spacing={3}>
+             {/* Tasks progress */}
+          <Grid item xs={12} md={8} lg={9}>
+          <Paper className={fixedHeightPaper}>
+          < TasksProgress />
+          </Paper>
+          </Grid>
+           {/* Total Customers */}
+          <Grid item xs={12} md={4} lg={3}>
+          <Paper className={fixedHeightPaper}>
+          < TotalCustomers />
+          </Paper>
+          </Grid>
+          </Grid>
+          
           <Grid container spacing={3}>
             {/* Chart */}
             <Grid item xs={12} md={8} lg={9}>

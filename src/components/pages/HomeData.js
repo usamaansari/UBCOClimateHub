@@ -3,13 +3,13 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '',
-    headline: 'Unlimited Transactions with zero fees',
+    headline: 'Amazing Things For You',
     description:
-      'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
+      'McGili Canada is AI and Blockchain-driven Company whose mission is to shape the supply chain industry in the coming Physical Internet Era and turn the 60-year-old traditional container into modular and smart container.  To achieve the vision, we are designing the modular hardware system: Logistics Innovation Unit Container (LIUC) and respective software (AI, Blockchain) to lead the new logistics landscape with great efficiency and visibility.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/svg-1.svg',
-    alt: 'Credit Card'
+    img: 'images/Home/HomePage_Img.JPG',
+    alt: 'Vaccine Container Supply'
   };
   
   export const homeObjTwo = {

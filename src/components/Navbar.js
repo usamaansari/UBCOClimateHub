@@ -32,7 +32,7 @@ function Navbar() {
            <nav className="navbar">
                <div class="navbar-container">
                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                       MCG <i className= 'fas fa-globe'/>
+                   <img src= '/images/Home/MCG_Logo.png' width="100" height="30" />   {/*<i className= 'fas fa-globe'/>*/}
                    </Link>
                    <div className='menu-icon' onClick={handleClick}>
                        <i className={click ? 'fas fa-times': 'fas fa-bars'} />

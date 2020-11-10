@@ -64,8 +64,8 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              MCG
-              <i class='fas fa-globe' />
+            <img src= '/images/Home/MCG_Logo.png' width="100" height="30" /> 
+              {/*<i class='fas fa-globe' />*/}
             </Link>
             
             

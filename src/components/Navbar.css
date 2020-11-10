@@ -19,7 +19,8 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    /*background-image: url('/src/images/Home/MCG_Logo.png');
+    color: #fff;*/
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;

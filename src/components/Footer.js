@@ -104,14 +104,16 @@ function Footer() {
             >
               <i class='fab fa-twitter' />
             </Link>
+            
             <Link
-              class='social-icon-link twitter'
-              to='/'
+              class='social-icon-link linkedin'
+              to='//www.linkedin.com/company/mcgili-canada-liu/'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
             </Link>
+            
           </div>
         </div>
       </section>

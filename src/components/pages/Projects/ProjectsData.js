@@ -3,13 +3,13 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '',
-    headline: 'Shifting The 60-Year-Old Traditional Container Into Smart Containers',
+    headline: 'Okanagan Local Power',
     description:
-      'MCG Canada is aiming to develop the advanced modular hardware system: Logistics Innovation Unit Container (LIUC), including the modular Transport-Handling-Packaging(THP) smart containers and Rapid & Reliable (R&R) distribution of the pharmaceutical products (including the vaccine) across its supply chain, based on Physical Internet (PI) enabled and Blockchain technologies.',
-    buttonLabel: 'Get Started',
+      'Working with Dogwood to get a Local Power team together to encourage the transition off fossil fuel energy sources and to create energy independence,  both for individuals and to support the municipality to set policy and programs to support the same in our region. I am looking for individuals interested in changing their home heating, water heating or appliance use from gas to electric or interested in renewable power generation (ie: solar or geo-thermal). The goal would be to provide cost savings to residents by doing this as a Community Renewables and Retrofit project with partner contractors and to provide low to no-cost financing options to assist. Organizing this will take considerable work so having project management, research, data analysis (would love to do a cost comparison of different systems), outreach and communications support would be amazing!',
+    buttonLabel: 'Learn More',
     imgStart: '',
-    img: 'images/Services/service1_b.jpg',
-    alt: 'Cold Chain Flowchart'
+    img: 'images/Projects/OkanaganLocalPower.jpg',
+    alt: 'Okanagan Local Power'
   };
   
   export const homeObjTwo = {
@@ -17,13 +17,13 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: '',
-    headline: 'Advancing The Intelligent TMT System (Track-Monitor-Trace)',
+    headline: 'Cool It! Climate Leadership Training program',
     description:
-      'The smart LIUC will be fully digitized in order to track, trace and monitor itself and its cargo in real time, while better protecting cargo and reducing energy consumption thanks to our highly performant handling and transshipment technology. MCG Canada will be capable on deep visibility and control from origin to destination, fast and reliable transit times, and low and predictable supply chain costs based on our advanced TMT system.',
+      'The Cool It! Climate Leadership Training program develops and empowers young sustainability champions in schools in British Columbia.  This initiative is available via the BC Sustainable Energy Association.',
     buttonLabel: 'Learn More',
     imgStart: 'start',
-    img: 'images/Services/service2_b.jpg',
-    alt: 'Track Monitor Trace'
+    img: 'images/Projects/SchoolClimateAction.jpg',
+    alt: 'School Climate Action'
   };
   
   export const homeObjThree = {
@@ -31,25 +31,40 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '',
-    headline: 'Fulfilling The Essential Needs Of End-Consumers Even Beyond The Expectation',
+    headline: 'Kelowna Draft 2040 Official Community Plan Engagement ',
     description:
-      "Delivering the right pharma products at the right time in the context of Covid-19 is the ultimate goal of MCG Canada. We believe in the power of blockchain to unlock the value of data in a decentralized way, on our journey towards a data-driven company this collaboration with UN/CEFACT, ISO, BSI and CILT enables us to build a secure enterprise B2B data marketplace to monetize and put data to work.",
-    buttonLabel: 'Start Now',
+      "Educate and promote public participation in the engagement process and join focus groups.",
+    buttonLabel: 'Learn More',
     imgStart: '',
-    img: 'images/Services/service3_b.jpg',
-    alt: 'Customer Relationship'
+    img: 'images/Projects/CommunityPlanEngagement.png',
+    alt: 'Community Plan Engagement'
   };
   
   export const homeObjFour = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: '',
+    headline: 'Kelowna Climate Action Advisory Committee Formation',
+    description:
+      'To form a committee affiliated with the City of Kelowna intended to review, recommend and action climate related policy.',
+    buttonLabel: 'Learn More',
+    imgStart: 'start',
+    img: 'images/Projects/AdvisoryCommitteeFormation.jpg',
+    alt: 'Advisory Committee Formation'
+  };
+
+    
+  export const homeObjFive = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: '',
-    headline: 'Every transaction is stored on our secure cloud database',
+    headline: 'Sustainable Development Challenge',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-    buttonLabel: 'Sign Up Now',
-    imgStart: 'start',
-    img: 'images/Services/service3_b.jpg',
-    alt: 'Vault'
+      "A platform for Okanagan youth to engage in and impact the 17 United Nations’ Global Goals. Our Challenge now has three ways for youth to have a voice in the issues they care about. ",
+    buttonLabel: 'Learn More',
+    imgStart: '',
+    img: 'images/Projects/Sustainable-02medium.png',
+    alt: 'Sustainable Development Challenge'
   };

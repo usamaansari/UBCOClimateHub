@@ -7,8 +7,8 @@ function HeroSection() {
     return (
         <div className = 'hero-container'>
             <video src = "/videos/ClimateHub_Home.mp4" autoPlay loop muted />
-            <h1>UBCO Climate Hub</h1>
-            <p>Creative solutions, Creative results</p>
+            <h1>Okanagan Climate Hub</h1>
+            <p>Many Voices, One Action-Climate Action</p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                     Get Started
